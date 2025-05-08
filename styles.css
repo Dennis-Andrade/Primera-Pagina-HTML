@@ -1,0 +1,98 @@
+body {
+    background-color: #fdf3e7;
+    font-family: Arial, sans-serif;
+    color: #4b2e2e;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #a0522d;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0 30px 0;
+}
+
+.galleta {
+    width: 30%;
+    min-width: 250px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.galleta:hover {
+    transform: scale(1.03);
+}
+
+.galletas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galleta {
+    width: 30%;
+    min-width: 250px;
+}
+
+.galleta img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.descripcion {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #5c4033;
+}
+
+a {
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #d2691e;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #b35416;
+}
+/*Apartado de los estilos para la listas ya que solo se usaran cosas muy puntuales*/
+.seccion-listas {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.lista {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.lista h2 {
+    color: #a0522d;
+    margin-bottom: 15px;
+}
+
+.lista ol, .lista ul {
+    text-align: left;
+    padding-left: 20px;
+    color: #4b2e2e;
+    font-size: 16px;
+    line-height: 1.8;
+}
